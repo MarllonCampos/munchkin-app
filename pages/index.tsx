@@ -242,8 +242,8 @@ const Home = () => {
           className="user-image"
           src={userImage}
           alt=""
-          width={200}
           height={200}
+          style={{ width: level <= 3 ? 150 : 200 }}
         />
       </div>
     </div>
