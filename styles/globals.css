@@ -65,12 +65,10 @@ div.total-strength__container {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  position: fixed;
-  transform:translateY(195%);
-  z-index: 0;
   font-size: 150px;
   pointer-events: none;
   opacity: 0.6;
+  margin-top: 36px;
 }
 
 div.info-container {

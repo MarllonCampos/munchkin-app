@@ -20,7 +20,7 @@ const Home = () => {
   const [bonus, setBonus] = useState(0);
   const [name, setName] = useState("");
   const [confirm, setConfirm] = useState(false);
-  const [userImage, setUserImage] = useState<String>(
+  const [userImage, setUserImage] = useState<string>(
     "/level1-male.png"
   );
 
