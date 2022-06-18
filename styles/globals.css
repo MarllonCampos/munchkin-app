@@ -14,3 +14,87 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+div.munchkin   {
+  padding: 32px 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.munchkin input {
+  text-align: center;
+  outline: 0;
+  font-size: 32px;
+  max-width: 280px;
+  height: 100%;
+}
+
+div.munchkin h2  {
+  text-align: center;
+  margin: 0;
+}
+
+div.munchkin .gender {
+  margin: 14px 0;
+  cursor: pointer;
+}
+
+div.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  min-width: 180px;
+  gap: 14px;
+}
+div.buttons-container > * {
+}
+
+div.buttons-container > p {
+  
+  min-width: 40px;
+  text-align: center;
+  margin: 0;
+  flex: 1;
+}
+
+div.total-strength__container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: fixed;
+  transform:translateY(195%);
+  z-index: 0;
+  font-size: 150px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+div.info-container {
+  display: grid;
+  gap: 36px 12px;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+div.munchkin .level-up {
+  grid-column: 1/3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.munchkin .name {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+
